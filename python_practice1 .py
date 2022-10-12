@@ -14,7 +14,7 @@ while select!=9:
   elif select==3:
     remfriend=input("삭제할 친구 이름을 입력하세요:")
     friends.remove(remfriend)
-    print("친구 삭제가 완료")
+    print("친구 삭제가 완료함")
     continue
   elif select==4:
     chfriend=input("이름을 변경할 친구 이름을 입력하세요:")
@@ -24,5 +24,5 @@ while select!=9:
     friends.remove(chfriend)
     continue
   else:
-    print("종료")
+    print("종료함")
     break
